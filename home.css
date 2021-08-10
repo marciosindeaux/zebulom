@@ -1,3 +1,10 @@
+blockquote {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .navbar-menu {
   margin-right: 0px;
   margin-left: 0px;
@@ -340,6 +347,7 @@
   font-family: 'Unica One', sans-serif;
   color: #fff;
   font-size: 24px;
+  text-transform: uppercase;
   line-height: 24px;
 }
 
@@ -716,7 +724,6 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
